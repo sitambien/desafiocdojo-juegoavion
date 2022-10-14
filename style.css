@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#mundo {
+    background-color: purple;
+    height: 98vh;
+    width: 950px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#fondo {
+    position: absolute;
+    background-image: url("img/spacio.gif");
+    transform: rotate(180deg);
+    background-size: cover;
+    width: 940px;
+    height: 720px;
+}
+
+.player {
+    position: absolute;
+    background-image: url("img/nave.png");
+    background-size: cover; 
+    width: 105px;
+    height: 104px;
+}
+
+.enemy {
+    position: absolute;
+    background-image: url("img/spaceinvader.png");
+    background-size: cover; 
+    width: 48px;
+    height: 43px;
+}
+
+.misil {
+    width: 2px;
+    height: 45px;
+    position: absolute;
+    background-color: cyan;
+}
